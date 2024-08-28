@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fund Me</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>Funding Smart Contract</h1>
+    <br>
+    <script src="./index.js" type="module"></script>
+    <div class="card">
+        <div>
+            <div class="title"> Connect</div>
+            <div class="supporting-text">Connect to the metamask wallet</div>
+        </div>
+        <button class="button" id="connectButton">Connect</button>
+    </div>
+    <div class="card">
+        <div>
+            <div class="title"> Balance</div>
+            <div class="supporting-text">check the balance you have funded</div>
+        </div>
+        <button class="button" id="balanceButton">Get Balance</button>
+    </div>
+    <div class="card">
+        <div>
+            <div class="title">Fund</div>
+            <div class="supporting-text">fund the amount to the smart contract</div>
+        </div>
+        <button class="button" id="fundButton">Fund</button>
+    </div>
+    <div class="card">
+        <div>
+            <div class="title">Withdraw</div>
+            <div class="supporting-text">withdraw the total amount back to your wallet</div>
+        </div>
+        <button class="button" id="withdrawButton">Withdraw</button>
+    </div>
+    <!-- form -->
+     <label  class="labels" for="fund">ETH Amount to Fund</label>
+     <input id="ethAmount" placeholder="0.1">
+     <br><br>
+     <label class="labels" for="withdraw">ETH Amount to Withdraw</label>
+     <input id="ethWithdraw" placeholder="0.1">
+     <p>*leave it blank to withdraw all the amount</p>
+     <div>
+        <h3 id="balance">Current Balance : </h3></h3>
+     </div>
+</body>
+</html>

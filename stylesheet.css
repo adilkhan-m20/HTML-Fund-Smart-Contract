@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+    background-color: lightblue;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    color: white;
+}
+p {
+    color: white;
+    font-size: 10px;
+}
+.labels {
+    font-weight: bold;
+    color: white;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 12px;
+    width: 100%;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    background-color: dodgerblue;
+}
+.card .title {
+    flex-grow: 1;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card .supporting-text {
+    font-size: 14px;
+    color: darkgrey;
+}
+.card .button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.button:hover {
+    background-color: darkblue;
+}
+#ethAmount #ethWithdraw {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
